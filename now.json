@@ -1,0 +1,14 @@
+{
+    "name": "planahead-api",
+    "version": 2,
+    "alias": [
+        "api.planahead.app"
+    ],
+    "builds": [{ 
+        "src": "index.js", 
+        "use": "@now/node-server"
+    }],
+    "env": {
+        "OPEN_WEATHER_MAP_TOKEN": "@open-weather-map-token"
+    }
+}
